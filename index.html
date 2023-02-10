@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Femtech Web Design class</title>
+    <link rel="stylesheet" href="hbproject/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="hbproject/images/logo.jpg" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="hbproject/images/logo.jpg">
+
+</head>
+<body>
+      <header>
+       <ul class="nav nav-pills">
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"> <img src="hbproject/images/logo.jpg" alt="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="profile.html" role="button" aria-expanded="false">Profile</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="founder.html">Founder/Chairman</a></li>
+              <li><a class="dropdown-item" href="#">Governing Board</a></li>
+              <li><a class="dropdown-item" href="#">School Management</a></li>
+              <li><a class="dropdown-item" href="#">Student Union Government</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="section.html" role="button" aria-expanded="false">Section</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Nursery</a></li>
+              <li><a class="dropdown-item" href="#">Primary</a></li>
+              <li><a class="dropdown-item" href="#">Junior Secondary School</a></li>
+              <li><a class="dropdown-item" href="#">Senior Secondary School</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="event.html">Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="admisson.html">Admission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>  
+         
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">LOGIN PAGE</button>
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+           <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">LOGIN</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="habibguru4@gmail">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-10">
+          <button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+            Submit
+          </button>
+          <a class="for-pwd" href="javascript:;">Forgot your password?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div> 
+</ul>
+</header>
+
+    <section>
+      
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="hbproject/images/slider-01.JPG" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>MAGAJI TAULA ACADEMY</h1>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="hbproject/images/slider-02.JPG" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>MAGAJI TAULA ACADEMY</h1>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="hbproject/images/slider-03.JPG" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>MAGAJI TAULA ACADEMY</h1>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="hbproject/images/about01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ABOUT US</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="hbproject/images/about_02.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">WHY WE ARE THE BEST</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="hbproject/images/about_03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ACADEMIC SCHEDULE</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="card text-bg-primary mb-3" style="max-width: 100rem;">
+        <div class="card-header">Professional Teachers</div>
+        <div class="card-body">
+          <h5 class="card-title">Primary card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-bg-secondary mb-3" style="max-width: 100rem;">
+        <div class="card-header">Online Teaching</div>
+        <div class="card-body">
+          <h5 class="card-title">Secondary card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-bg-success mb-3" style="max-width: 100rem;">
+        <div class="card-header">Comfortable Study Zone</div>
+        <div class="card-body">
+          <h5 class="card-title">Success card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-bg-danger mb-3" style="max-width: 100rem;">
+        <div class="card-header">Well Secured Enviroment</div>
+        <div class="card-body">
+          <h5 class="card-title">Danger card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-bg-warning mb-3" style="max-width: 100rem;">
+        <div class="card-header">Video Lesson</div>
+        <div class="card-body">
+          <h5 class="card-title">Warning card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-bg-info mb-3" style="max-width: 100rem;">
+        <div class="card-header">Extra-Curricular Activities</div>
+        <div class="card-body">
+          <h5 class="card-title">Info card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-bg-light mb-3" style="max-width: 100rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h5 class="card-title">Light card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card text-bg-dark mb-3" style="max-width: 100rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h5 class="card-title">Dark card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+      
+      <section class="campus">
+				
+				<div class="row">
+					<div class="campus-col">
+						<img src="hbproject/images/sunset.jpg" alt="" class="img-fluid img-rounded">
+						<div class="layer">
+							<h3>Nursery</h3>	
+						</div>
+					</div>
+					<div class="campus-col">
+						<img src="hbproject/images/sunset.jpg" alt="" class="img-fluid img-rounded">
+							<div class="layer">
+								<h3>Primary</h3>	
+							</div>
+						</div>
+						<div class="campus-col">
+							<img src= "hbproject/images/sunset.jpg" alt="" class="img-fluid img-rounded">
+								<div class="layer">
+									<h3>Secondary</h3>	
+								</div>
+							</div>	
+					</div>
+				</section>
+      
+      
+    </section>
+
+    <footer>
+      <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Social Media </h3>
+                        </div>
+                        <p> You Can Follow Us On Various Social Media Handles Via:-</p>   
+						<div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="#">Facebook</i></a></li>
+								<li><a href="#">Whatsapp</i></a></li>
+								<li><a href="#">Instagram</i></a></li>
+								<li><a href="#">Twitter</i></a></li>
+								</ul>
+						</div>						
+                    </div>
+                </div>
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Section</a></li>
+                            <li><a href="#">Event</a></li>
+							              <li><a href="#">About</a></li>
+							              <li><a href="#">Contact</a></li>
+                            <li><a href="#">Admission</a></li>
+                        </ul>
+                    </div>
+                </div>
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">info@magajitaulaacademy.com</a></li>
+                            <li><a href="#">www.magajitaulaacademy.com</a></li>
+                            <li>Along Sokoto -Gusau Road Bye-Pass, Off Jauri Road, Gusau Zamfara State</li>
+                            <li>+234-811-753-9834</li>
+                        </ul>
+                    </div>
+                </div>
+				
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2023 <a href="#">Magaji Taula Academy</a> Design By : <a href="#">H.Y. Info. Tech.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    </footer>
+
+
+
+<script type="text/javascript" src="hbproject/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="hbproject/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
